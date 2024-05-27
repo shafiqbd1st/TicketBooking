@@ -80,7 +80,6 @@ PyGetWindow
 Pygments
 PyMsgBox
 pyperclip
-pypiwin32
 PyRect
 PyScreeze
 python-dateutil
