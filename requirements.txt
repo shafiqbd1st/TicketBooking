@@ -85,6 +85,7 @@ PyScreeze
 python-dateutil
 python-json-logger
 pytweening
+pywin32
 pywinpty
 PyYAML
 pyzmq
