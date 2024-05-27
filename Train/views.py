@@ -98,7 +98,7 @@ def buy_ticket(request, id):
         messages.error(request, "can not purchase the ticket")
         return redirect("detail", id)
 
-
+# hello
 @login_required
 def edit_profile(request):
     if request.method == "POST":
