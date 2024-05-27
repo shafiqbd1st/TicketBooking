@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{%load crispy_forms_tags%}
+{%block body%}
+<h1>This is profile page</h1>
+<form class='p-1' method="post" style="width: 55%; margin: auto" novalidate>
+    <h1>Update User Information</h1>
+    <a href={%url 'pass_change' %} class="btn btn-warning" type="submit">Password change</a>
+    {% csrf_token %}
+    {{form|crispy}}
+    <br />
+    <button class="btn btn-primary" type="submit">Submit</button>
+    <br />
+
+</form>
+
+{% endblock %}
