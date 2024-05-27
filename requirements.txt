@@ -80,11 +80,15 @@ PyGetWindow
 Pygments
 PyMsgBox
 pyperclip
+PyQt5
+PyQt5-Qt5
+PyQt5-sip
 PyRect
 PyScreeze
 python-dateutil
 python-json-logger
 pytweening
+pywin32
 pywinpty
 PyYAML
 pyzmq
