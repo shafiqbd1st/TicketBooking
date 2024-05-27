@@ -80,6 +80,7 @@ PyGetWindow
 Pygments
 PyMsgBox
 pyperclip
+pypiwin32
 PyQt5
 PyQt5-Qt5
 PyQt5-sip
@@ -88,7 +89,6 @@ PyScreeze
 python-dateutil
 python-json-logger
 pytweening
-pywin32
 pywinpty
 PyYAML
 pyzmq
