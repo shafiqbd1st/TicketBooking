@@ -87,14 +87,19 @@ WSGI_APPLICATION = 'TrainTicketBookingSystem.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    "default": dj_database_url.config(
+        # Replace this value with your local database's connection string.
+        default="postgres://lms_0kkr_user:5NDgRbwXvby0AvXfOUpOqKTlgMwNvtIq@dpg-coja34u3e1ms73fqr3fg-a.oregon-postgres.render.com/lms_0kkr",
+    )
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
