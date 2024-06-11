@@ -34,7 +34,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = [
-    "https://ticketbooking-69r8.onrender.com",
+    "https://ticketbooking-d4ke.onrender.com",
     "https://*.127.0.0.1",
 ]
 
